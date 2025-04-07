@@ -18,11 +18,11 @@ print(len(df))
 # Step 2: Database connection details
 db_config = {
     'username': 'postgres',
-    'password': 'manthara',
-    'host': 'database-1.cj44m2uoia5x.ap-south-1.rds.amazonaws.com',
+    'password': 'your-password',
+    'host': 'your-db-name',
     'port': '5432',
-    'database': 'flipkart_data',
-    'table_name': 'flipkart_data'
+    'database': 'your-db-name',
+    'table_name': 'your-table-name'
 }
 
 # Create SQLAlchemy engine
