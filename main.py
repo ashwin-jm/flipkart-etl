@@ -10,6 +10,7 @@ print(len(df))
 
 # Example cleaning - customize as needed
 df.columns = df.columns.str.strip()
+df.drop(columns=['product_rating', 'overall_rating', 'product_category_tree'], inplace=True)
 df.dropna(inplace=True)
 
 print(len(df))
